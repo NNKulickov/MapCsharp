@@ -1,0 +1,19 @@
+﻿<Window x:Class="TileMap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TileMap"
+        mc:Ignorable="d"
+        Title="MainWindow" x:Name="Main" MinHeight="768" MinWidth="768"   ResizeMode="CanResize" Height="768" Width="768">
+    <Canvas x:Name="MainCanvas" MinHeight="256" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="256" Background="Black">
+        <Grid Name="DynamicGrid" MinHeight="768" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="768" Canvas.Left="0" Canvas.Top="0" Background="Aqua" ShowGridLines="True" 
+              MouseLeftButtonDown="DynamicGrid_MouseLeftButtonDown" MouseLeftButtonUp="DynamicGrid_MouseLeftButtonUp" MouseMove="DynamicGrid_MouseMove"/>
+        <Label x:Name="Label_X" Content="Label"/>
+        <Label x:Name="Label_Y" Content="Label"/>
+        <Label x:Name="Label_MAX_X" Content="Label"/>
+        <Label x:Name="Label_MAX_Y" Content="Label"/>
+        <Label x:Name="Label_REL_X" Content="Label"/>
+        <Label x:Name="Label_REL_Y" Content="Label"/>
+    </Canvas>
+</Window>

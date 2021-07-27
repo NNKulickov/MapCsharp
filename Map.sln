@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapProject", "GridTestApplication\MapProject.csproj", "{380C9F87-4F92-45E1-AB01-6030B4D0E293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonTesting", "PolygonTesting\PolygonTesting.csproj", "{98730AA5-D5F7-472A-9C2C-A5FAF48AABC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{380C9F87-4F92-45E1-AB01-6030B4D0E293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380C9F87-4F92-45E1-AB01-6030B4D0E293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380C9F87-4F92-45E1-AB01-6030B4D0E293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380C9F87-4F92-45E1-AB01-6030B4D0E293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98730AA5-D5F7-472A-9C2C-A5FAF48AABC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98730AA5-D5F7-472A-9C2C-A5FAF48AABC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98730AA5-D5F7-472A-9C2C-A5FAF48AABC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98730AA5-D5F7-472A-9C2C-A5FAF48AABC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9C506E2-73A5-48BA-A938-534BA90B0E11}
+	EndGlobalSection
+EndGlobal
